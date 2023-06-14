@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		302F5B312A3A002E00991682 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302F5B302A3A002E00991682 /* LocationPreviewView.swift */; };
 		302F5B342A3A267400991682 /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302F5B332A3A267400991682 /* LocationMapAnnotationView.swift */; };
+		302F5B362A3A5CBB00991682 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302F5B352A3A5CBB00991682 /* LocationDetailView.swift */; };
 		30E165F72A3949CE003A0A5C /* TourTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E165F62A3949CE003A0A5C /* TourTrackApp.swift */; };
 		30E165F92A3949CE003A0A5C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E165F82A3949CE003A0A5C /* ContentView.swift */; };
 		30E165FE2A3949CF003A0A5C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30E165FD2A3949CF003A0A5C /* Preview Assets.xcassets */; };
@@ -24,6 +25,7 @@
 		302F5B302A3A002E00991682 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
 		302F5B322A3A0C2500991682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		302F5B332A3A267400991682 /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
+		302F5B352A3A5CBB00991682 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
 		30E165F32A3949CE003A0A5C /* TourTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TourTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30E165F62A3949CE003A0A5C /* TourTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourTrackApp.swift; sourceTree = "<group>"; };
 		30E165F82A3949CE003A0A5C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				30E166122A395DB2003A0A5C /* LocationsListView.swift */,
 				302F5B302A3A002E00991682 /* LocationPreviewView.swift */,
 				302F5B332A3A267400991682 /* LocationMapAnnotationView.swift */,
+				302F5B352A3A5CBB00991682 /* LocationDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				30E165F92A3949CE003A0A5C /* ContentView.swift in Sources */,
 				30E1660F2A394DE4003A0A5C /* LocationsView.swift in Sources */,
 				30E1660A2A394BD3003A0A5C /* Location.swift in Sources */,
+				302F5B362A3A5CBB00991682 /* LocationDetailView.swift in Sources */,
 				30E165F72A3949CE003A0A5C /* TourTrackApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +261,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -311,7 +315,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -338,8 +342,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -371,8 +375,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

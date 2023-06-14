@@ -24,7 +24,7 @@ struct LocationPreviewView: View {
             }
         }
         .padding(20)
-        .background(RoundedRectangle(cornerRadius: 10).fill(Material.thin).offset(y: 65))
+        .background(RoundedRectangle(cornerRadius: 10).fill(Material.ultraThin).offset(y: 65))
         .cornerRadius(10)
     }
 }
@@ -71,7 +71,7 @@ extension LocationPreviewView {
     
     private var learnMoreButton: some View {
         Button {
-            // TODO: Add action
+            vm.sheetLocation = location
         } label: {
             Text("Learn more")
                 .font(.headline)
