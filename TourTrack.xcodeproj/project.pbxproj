@@ -14,6 +14,7 @@
 		30E1660A2A394BD3003A0A5C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E166092A394BD3003A0A5C /* Location.swift */; };
 		30E1660D2A394CBB003A0A5C /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1660C2A394CBB003A0A5C /* LocationsDataService.swift */; };
 		30E1660F2A394DE4003A0A5C /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1660E2A394DE4003A0A5C /* LocationsView.swift */; };
+		30E166112A395358003A0A5C /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E166102A395358003A0A5C /* LocationsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		30E166092A394BD3003A0A5C /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		30E1660C2A394CBB003A0A5C /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
 		30E1660E2A394DE4003A0A5C /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
+		30E166102A395358003A0A5C /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		30E166082A394B77003A0A5C /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				30E166102A395358003A0A5C /* LocationsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30E1660D2A394CBB003A0A5C /* LocationsDataService.swift in Sources */,
+				30E166112A395358003A0A5C /* LocationsViewModel.swift in Sources */,
 				30E165F92A3949CE003A0A5C /* ContentView.swift in Sources */,
 				30E1660F2A394DE4003A0A5C /* LocationsView.swift in Sources */,
 				30E1660A2A394BD3003A0A5C /* Location.swift in Sources */,

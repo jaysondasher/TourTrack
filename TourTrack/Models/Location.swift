@@ -4,8 +4,9 @@
 //
 //  Created by Jayson Dasher on 6/13/23.
 //
-import MapKit
+
 import Foundation
+import MapKit
 
 struct Location: Identifiable {
     let name: String
