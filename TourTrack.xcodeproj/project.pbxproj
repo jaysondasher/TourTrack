@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		302F5B312A3A002E00991682 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302F5B302A3A002E00991682 /* LocationPreviewView.swift */; };
 		30E165F72A3949CE003A0A5C /* TourTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E165F62A3949CE003A0A5C /* TourTrackApp.swift */; };
 		30E165F92A3949CE003A0A5C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E165F82A3949CE003A0A5C /* ContentView.swift */; };
 		30E165FE2A3949CF003A0A5C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30E165FD2A3949CF003A0A5C /* Preview Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		302F5B302A3A002E00991682 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
 		30E165F32A3949CE003A0A5C /* TourTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TourTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30E165F62A3949CE003A0A5C /* TourTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourTrackApp.swift; sourceTree = "<group>"; };
 		30E165F82A3949CE003A0A5C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			children = (
 				30E1660E2A394DE4003A0A5C /* LocationsView.swift */,
 				30E166122A395DB2003A0A5C /* LocationsListView.swift */,
+				302F5B302A3A002E00991682 /* LocationPreviewView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			files = (
 				30E1660D2A394CBB003A0A5C /* LocationsDataService.swift in Sources */,
 				30E166132A395DB2003A0A5C /* LocationsListView.swift in Sources */,
+				302F5B312A3A002E00991682 /* LocationPreviewView.swift in Sources */,
 				30E166112A395358003A0A5C /* LocationsViewModel.swift in Sources */,
 				30E165F92A3949CE003A0A5C /* ContentView.swift in Sources */,
 				30E1660F2A394DE4003A0A5C /* LocationsView.swift in Sources */,
