@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		302F5B312A3A002E00991682 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302F5B302A3A002E00991682 /* LocationPreviewView.swift */; };
+		302F5B342A3A267400991682 /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302F5B332A3A267400991682 /* LocationMapAnnotationView.swift */; };
 		30E165F72A3949CE003A0A5C /* TourTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E165F62A3949CE003A0A5C /* TourTrackApp.swift */; };
 		30E165F92A3949CE003A0A5C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E165F82A3949CE003A0A5C /* ContentView.swift */; };
 		30E165FE2A3949CF003A0A5C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30E165FD2A3949CF003A0A5C /* Preview Assets.xcassets */; };
@@ -21,6 +22,8 @@
 
 /* Begin PBXFileReference section */
 		302F5B302A3A002E00991682 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
+		302F5B322A3A0C2500991682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		302F5B332A3A267400991682 /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
 		30E165F32A3949CE003A0A5C /* TourTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TourTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30E165F62A3949CE003A0A5C /* TourTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourTrackApp.swift; sourceTree = "<group>"; };
 		30E165F82A3949CE003A0A5C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,6 +66,7 @@
 		30E165F52A3949CE003A0A5C /* TourTrack */ = {
 			isa = PBXGroup;
 			children = (
+				302F5B322A3A0C2500991682 /* Info.plist */,
 				30E165F62A3949CE003A0A5C /* TourTrackApp.swift */,
 				30E165F82A3949CE003A0A5C /* ContentView.swift */,
 				30E1660B2A394CA1003A0A5C /* DataServices */,
@@ -97,6 +101,7 @@
 				30E1660E2A394DE4003A0A5C /* LocationsView.swift */,
 				30E166122A395DB2003A0A5C /* LocationsListView.swift */,
 				302F5B302A3A002E00991682 /* LocationPreviewView.swift */,
+				302F5B332A3A267400991682 /* LocationMapAnnotationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -188,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30E1660D2A394CBB003A0A5C /* LocationsDataService.swift in Sources */,
+				302F5B342A3A267400991682 /* LocationMapAnnotationView.swift in Sources */,
 				30E166132A395DB2003A0A5C /* LocationsListView.swift in Sources */,
 				302F5B312A3A002E00991682 /* LocationPreviewView.swift in Sources */,
 				30E166112A395358003A0A5C /* LocationsViewModel.swift in Sources */,
@@ -326,11 +332,15 @@
 				DEVELOPMENT_TEAM = 65YK9B6FM6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TourTrack/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TourTracker;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -355,11 +365,15 @@
 				DEVELOPMENT_TEAM = 65YK9B6FM6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TourTrack/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TourTracker;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
