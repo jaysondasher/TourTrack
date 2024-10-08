@@ -10,7 +10,6 @@
 		302F5B312A3A002E00991682 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302F5B302A3A002E00991682 /* LocationPreviewView.swift */; };
 		302F5B342A3A267400991682 /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302F5B332A3A267400991682 /* LocationMapAnnotationView.swift */; };
 		302F5B362A3A5CBB00991682 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302F5B352A3A5CBB00991682 /* LocationDetailView.swift */; };
-		302F5B382A3A6F0E00991682 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302F5B372A3A6F0E00991682 /* Launch Screen.storyboard */; };
 		30E165F72A3949CE003A0A5C /* TourTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E165F62A3949CE003A0A5C /* TourTrackApp.swift */; };
 		30E165F92A3949CE003A0A5C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E165F82A3949CE003A0A5C /* ContentView.swift */; };
 		30E165FE2A3949CF003A0A5C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30E165FD2A3949CF003A0A5C /* Preview Assets.xcassets */; };
@@ -24,10 +23,8 @@
 
 /* Begin PBXFileReference section */
 		302F5B302A3A002E00991682 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
-		302F5B322A3A0C2500991682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		302F5B332A3A267400991682 /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
 		302F5B352A3A5CBB00991682 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
-		302F5B372A3A6F0E00991682 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		30E165F32A3949CE003A0A5C /* TourTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TourTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30E165F62A3949CE003A0A5C /* TourTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourTrackApp.swift; sourceTree = "<group>"; };
 		30E165F82A3949CE003A0A5C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,7 +67,6 @@
 		30E165F52A3949CE003A0A5C /* TourTrack */ = {
 			isa = PBXGroup;
 			children = (
-				302F5B322A3A0C2500991682 /* Info.plist */,
 				30E165F62A3949CE003A0A5C /* TourTrackApp.swift */,
 				30E165F82A3949CE003A0A5C /* ContentView.swift */,
 				30E1660B2A394CA1003A0A5C /* DataServices */,
@@ -78,7 +74,6 @@
 				30E166082A394B77003A0A5C /* ViewModels */,
 				30E166062A394B69003A0A5C /* Models */,
 				30E166042A394A9A003A0A5C /* Assets.xcassets */,
-				302F5B372A3A6F0E00991682 /* Launch Screen.storyboard */,
 				30E165FC2A3949CF003A0A5C /* Preview Content */,
 			);
 			path = TourTrack;
@@ -186,7 +181,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				302F5B382A3A6F0E00991682 /* Launch Screen.storyboard in Resources */,
 				30E166052A394A9A003A0A5C /* Assets.xcassets in Resources */,
 				30E165FE2A3949CF003A0A5C /* Preview Assets.xcassets in Resources */,
 			);
@@ -265,6 +259,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -319,6 +314,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -340,12 +336,12 @@
 				DEVELOPMENT_TEAM = 65YK9B6FM6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TourTrack/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = TourTracker;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -373,12 +369,12 @@
 				DEVELOPMENT_TEAM = 65YK9B6FM6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TourTrack/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = TourTracker;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
