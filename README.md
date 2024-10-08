@@ -8,6 +8,24 @@ TourTrack is a demonstration project showcasing the capabilities of MapKit and S
 - **SwiftUI Design**: Utilizes SwiftUI for building user interfaces.
 - **Hardcoded Location Data**: Uses hardcoded data for demonstration purposes.
 
+## Screenshots
+
+### iPhone
+
+<p float="left">
+  <img src="https://i.imgur.com/dAsoZcW.png" width="200" />
+  <img src="https://i.imgur.com/qP44Qut.png" width="200" /> 
+  <img src="https://i.imgur.com/E5XPlHL.png" width="200" />
+</p>
+
+### iPad
+
+<p float="left">
+  <img src="https://i.imgur.com/3uiEOO6.png" width="250" />
+  <img src="https://i.imgur.com/N64UVzA.png" width="250" /> 
+  <img src="https://i.imgur.com/BpVurr1.png" width="250" />
+</p>
+
 ## Installation
 
 To set up the project locally, follow these steps:
@@ -16,33 +34,25 @@ To set up the project locally, follow these steps:
    ```sh
    git clone https://github.com/jaysondasher/TourTrack.git
    ```
-2. **Navigate to the project directory**:
+2. **Open the project in Xcode**:
    ```sh
    cd TourTrack
+   open TourTrack.xcodeproj
    ```
-3. **Open the project in Xcode**:
-   Open `TourTrack.xcodeproj` file in Xcode.
-4. **Build and run the project**:
-   Select your target device or simulator and press the Run button.
+3. **Build and run the project** in Xcode.
 
-## Usage
+## Requirements
 
-Once the project is set up, you can explore the following features:
-
-- **View Map**: Open the app to see the hardcoded locations displayed on the map.
-- **Interact with Map**: Zoom in, zoom out, and navigate around the map to explore different locations.
-
-## Screenshots
-
-![Upload Screenshot](path/to/screenshot1.png)
-![Upload Screenshot](path/to/screenshot2.png)
+- iOS 16.0+
+- Xcode 14.0+
+- Swift 5.0+
 
 ## Contributing
 
-Contributions are welcome! If you would like to contribute to this project, please follow these steps:
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-1. Fork the repository.
-2. Create a new branch:
+1. Fork the project
+2. Create your feature branch:
    ```sh
    git checkout -b feature/YourFeature
    ```
@@ -59,4 +69,3 @@ Contributions are welcome! If you would like to contribute to this project, plea
 ## License
 
 This project is licensed under the MIT License.
-```
